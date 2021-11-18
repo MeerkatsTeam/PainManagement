@@ -1,0 +1,32 @@
+###
+POST http://localhost:3000/api/doctors HTTP/1.1
+Content-Type: application/json
+
+{
+    "CitizenID": "ACE123456",
+    "ReTHUS": 123456,
+    "DrugApplied":"Ibuprofeno",
+    "DoctorName":"Fulano",
+    "Speciality":"Internista"
+}
+
+###
+GET http://localhost:3000/api/doctors HTTP/1.1
+
+###
+GET http://localhost:3000/api/doctors/6195b74972280984191ef75e HTTP/1.1
+
+###
+DELETE http://localhost:3000/api/doctors HTTP/1.1
+
+###
+PUT http://localhost:3000/api/doctors/6195b74972280984191ef75e HTTP/1.1
+Content-Type: application/json
+
+{
+    "CitizenID": "ACE123456",
+    "ReTHUS": 123456,
+    "DrugApplied":"Ibuprofeno",
+    "DoctorName":"Perensejo",
+    "Speciality":"Dermatólogo"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "painmanagement",
+  "version": "1.0.0",
+  "description": "Pain Valoration",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeerkatsTeam/PainManagement.git"
+  },
+  "keywords": [
+    "Pain",
+    "Valoration"
+  ],
+  "author": "Ivan Castañeda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeerkatsTeam/PainManagement/issues"
+  },
+  "homepage": "https://github.com/MeerkatsTeam/PainManagement#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
